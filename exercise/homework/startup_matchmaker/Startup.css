@@ -1,0 +1,161 @@
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-left: 350px;
+  margin-right: 350px;
+  font-family: serif;
+}
+
+.section-first {
+  background: black;
+}
+
+.StartupLogo {
+  color: yellow;
+  padding: 15px;
+}
+
+.NavigationBar {
+  background: black;
+  color: white;
+}
+
+.NavigationBar ul{
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.NavigationBar li {
+  display: inline-block;
+  padding: 9px;
+  padding-bottom: 20px;
+}
+
+.list-1{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.horizontal-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+
+}
+
+.horizontal-list li {
+  display: flex;
+  flex-direction: row;
+}
+
+.makelineyellow {
+  background: yellow;
+  height: 4px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.section-second {
+  background: #D6D6D7;
+  padding: 15px
+}
+
+.sloganline {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.make-grey {
+  color: grey;
+  text-decoration-line: line-through;
+}
+
+.make-underline {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.section-third {
+    padding: 200px;
+    background: url(coworking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.meet-your-match-box {
+  position: absolute;
+  top: 220px;
+  right: 400px;
+  width: 200px;
+  height: 300px;
+  border: 0 px solid;
+  background: rgba(243, 241, 241, 0.7);;
+  padding: 10px;
+}
+
+.box-head-line {
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.section-third p {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.section-third button {
+  background: yellow;
+  font-weight: bold;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 60px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 20px;
+
+}
+
+.headline {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.flex-container button {
+  padding: 8px;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.divider {
+  width: 2px;
+  margin: 6px 0;
+  background: #D6D6D7;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+.section-fourth{
+  background-color: black;
+  padding: 15px;
+}
+
+.copyrightsline {
+  color: white;
+  font-weight: bold;
+}
